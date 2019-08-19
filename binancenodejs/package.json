@@ -1,0 +1,16 @@
+{
+  "name": "binancenodejs",
+  "version": "1.0.0",
+  "description": "a crypotocurrency bot deployed to google cloud app engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Allen Zhang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-binance-api": "^0.9.5"
+  }
+}
